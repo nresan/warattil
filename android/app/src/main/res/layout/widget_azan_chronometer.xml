@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Live-ticking countdown view embedded inside the Glance widget via
+  AndroidRemoteViews.  Uses Android's built-in Chronometer because it is
+  one of the few RemoteViews-friendly views that the system widget host
+  ticks live every second — same mechanism that lets clock / stopwatch
+  widgets update without the app process doing per-second work.
+
+  setChronometerCountDown(true) makes the value count DOWN from now
+  toward the base time (set in Kotlin to the next prayer's millis).
+  When the base is reached the chronometer freezes at 0:00, at which
+  point AzanReceiver fires the prayer alarm and refreshes the widget
+  to switch to the next prayer's countdown.
+
+  Sizing history:
+    • pt.1 — 11sp start-aligned at the bottom (too quiet, easy to miss)
+    • pt.2 — 16sp centered (better, still secondary)
+    • pt.3 — 48sp Bold gold, full-width centered (too loud — dwarfed the
+      44dp app logo and broke the visual hierarchy; user feedback
+      2026-05-18 was "logo should be the hero, countdown should have a
+      consistent ratio with it")
+    • pt.4 — 18sp Bold gold on its own dedicated row.
+    • pt.5 — 22sp Bold gold, inline in the upper band Row (rendering
+      failure: AndroidRemoteViews wrapped in a Box with
+      Spacer(defaultWeight()) sibling collapsed to zero width).
+    • pt.6 (current, 2026-05-19) — **26sp Bold gold, centered**, used by
+      the prayer-focused widget redesign that ships two chronometer
+      instances side-by-side (one per upcoming prayer).  Each
+      AndroidRemoteViews wrapping this layout creates its own view
+      tree at render time, so the shared azan_chronometer view ID
+      doesn't collide between the two instances.  Eastern Arabic
+      digits render automatically when the device locale is Arabic.
+-->
+<Chronometer xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/azan_chronometer"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="18sp"
+    android:textColor="#FF996515"
+    android:textStyle="bold"
+    android:singleLine="true"
+    android:layoutDirection="rtl"
+    android:textDirection="rtl" />

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  FileProvider paths for cache-backed share targets.  Currently used by
+  ShareUtil.shareHifzGarden to expose a freshly-rendered garden PNG to
+  receiving apps (WhatsApp, Telegram, Gmail, …) without requiring external
+  storage permissions.
+
+  The `cache-path` entry maps Context.cacheDir to a subdirectory named
+  "shared_images" so we can scope the provider to share-only files and
+  avoid accidentally exposing unrelated cache contents.
+-->
+<paths>
+    <cache-path
+        name="shared_images"
+        path="shared_images/" />
+</paths>

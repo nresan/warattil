@@ -1,0 +1,73 @@
+# ---------- macOS / editors ----------
+.DS_Store
+*.swp
+*~
+
+# ---------- Android / Gradle ----------
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+.kotlin/
+
+# Android build output that may appear under app/
+app/build/
+app/release/*.apk
+app/release/*.aab
+# keep release notes / marketing assets out of ignore — those ARE versioned
+
+# ---------- iOS / Xcode ----------
+# User-specific Xcode state (per-machine, never shared)
+ios/**/xcuserdata/
+ios/**/*.xcuserstate
+
+# Build artefacts
+ios/**/build/
+ios/**/DerivedData/
+ios/DerivedData/
+
+# Swift Package Manager
+ios/**/.swiftpm/
+ios/**/.build/
+ios/**/Package.resolved
+
+# CocoaPods / Carthage — not currently used, safe to ignore pre-emptively
+ios/**/Pods/
+ios/**/Carthage/Build/
+
+# Fastlane / profiles
+ios/**/fastlane/report.xml
+ios/**/fastlane/Preview.html
+ios/**/fastlane/screenshots/**/*.png
+ios/**/fastlane/test_output
+*.mobileprovision
+gradle-error.txt
+
+# ---------- Release signing (NEVER commit) ----------
+# Keystores and the keystore.properties pointer file stay out of git.
+# The template `keystore.properties.example` IS versioned (no secrets)
+# so a fresh clone has a documented starting point.
+keystore.properties
+*.jks
+*.keystore
+
+# ---------- Pipeline staging (large source data, not shipped) ----------
+# Raw KFGQPC distributions, parser inputs, and intermediate artefacts
+# live here.  The processed JSON / SQLite outputs that ship in the APK
+# go under app/src/main/assets/ and ARE versioned.
+pipeline_data/**/*.xml
+pipeline_data/**/*.sql
+pipeline_data/**/*.ttf
+pipeline_data/**/*.zip
+pipeline_data/**/*.csv
+pipeline_data/**/*.txt

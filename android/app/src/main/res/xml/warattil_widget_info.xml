@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  WARATTIL home-screen widget — HYBRID design (pt.7, locked 2026-05-19).
+  Reading state is always visible; Azan countdown line is additive when
+  the user has set up Azan.
+  Content stack:
+    1. Upper band: 56dp logo + page/surah/juz column (17/13/11sp)
+    2. Azan countdown line (only when Azan enabled) — 18sp gold,
+       centered «الفجر بعد ٠١:٢٣:٤٥»
+    3. Wird progress bar with % label
+    4. Daily ma'thūr du'aa (11sp gold, 2 lines max, centered)
+  Total natural height ~120dp (no Azan) / ~150dp (Azan enabled).
+  minHeight=130dp covers the most common case (single-cell 2x1 placement).
+  Earlier widget identities (prayer-focused / inline chronometer) were
+  pulled — full history in WarattilWidget.kt's top comment.
+-->
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="250dp"
+    android:minHeight="130dp"
+    android:minResizeWidth="220dp"
+    android:minResizeHeight="110dp"
+    android:targetCellWidth="4"
+    android:targetCellHeight="2"
+    android:updatePeriodMillis="1800000"
+    android:initialLayout="@layout/glance_default_loading_layout"
+    android:widgetCategory="home_screen"
+    android:description="@string/widget_description"
+    android:previewImage="@mipmap/ic_launcher"
+    android:resizeMode="horizontal|vertical" />

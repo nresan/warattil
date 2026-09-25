@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>دليل الاستخدام — وَرَتِّلْ</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=IBM+Plex+Sans+Arabic:wght@400;500;600&display=swap');
+
+  :root {
+    --cream:      #F5F5DC;
+    --cream-deep: #EDE9D0;
+    --ink:        #1A1A1A;
+    --ink-soft:   #444444;
+    --green:      #1B5E20;
+    --green-soft: #E8F5E9;
+    --gold:       #B8860B;
+    --gold-soft:  #FFF8E7;
+    --gold-line:  rgba(184,134,11,0.30);
+    --radius:     12px;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--cream);
+    color: var(--ink);
+    font-family: 'IBM Plex Sans Arabic', 'Amiri', 'Tahoma', 'Arial', sans-serif;
+    font-size: 15px;
+    line-height: 1.75;
+    padding: 20px 16px 40px;
+    direction: rtl;
+  }
+
+  /* ── Page title ── */
+  .page-title {
+    font-family: 'Amiri', serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--green);
+    text-align: center;
+    margin-bottom: 4px;
+  }
+  .page-subtitle {
+    font-size: 13px;
+    color: var(--ink-soft);
+    text-align: center;
+    margin-bottom: 24px;
+  }
+
+  /* ── Gold divider ── */
+  .divider {
+    height: 1px;
+    background: var(--gold-line);
+    margin: 20px 0;
+  }
+
+  /* ── Feature card ── */
+  .card {
+    background: #FFFFFF;
+    border-radius: var(--radius);
+    border: 1px solid var(--gold-line);
+    padding: 16px 14px;
+    margin-bottom: 14px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+  }
+
+  .card-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+
+  .card-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    background: var(--green-soft);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    flex-shrink: 0;
+  }
+
+  .card-title {
+    font-family: 'Amiri', serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--green);
+  }
+
+  .card-body {
+    font-size: 14px;
+    color: var(--ink-soft);
+    line-height: 1.8;
+  }
+
+  .card-body p { margin-bottom: 6px; }
+  .card-body p:last-child { margin-bottom: 0; }
+
+  /* ── Tip / note pill ── */
+  .tip {
+    background: var(--gold-soft);
+    border-right: 3px solid var(--gold);
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-size: 13px;
+    color: #5a3e00;
+    margin-top: 8px;
+    line-height: 1.7;
+  }
+
+  /* ── Color tier legend ── */
+  .tier-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 4px 0;
+    font-size: 13px;
+    color: var(--ink-soft);
+  }
+  .tier-dot {
+    width: 12px; height: 12px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  /* ── Section heading ── */
+  .section-heading {
+    font-family: 'Amiri', serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--gold);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 10px;
+    margin-top: 24px;
+  }
+
+  /* ── Footer ── */
+  .footer {
+    text-align: center;
+    font-size: 12px;
+    color: var(--ink-soft);
+    margin-top: 32px;
+    opacity: 0.65;
+  }
+  .footer a { color: var(--green); text-decoration: none; }
+</style>
+</head>
+<body>
+
+<div class="page-title">دليل الاستخدام</div>
+<div class="page-subtitle">وَرَتِّلْ · مصحف رقمي هادئ، بلا إعلانات</div>
+
+<div class="divider"></div>
+
+<!-- ══════════════════════════════════════════════════════════
+     1. القراءة
+     ══════════════════════════════════════════════════════════ -->
+<div class="section-heading">القراءة</div>
+
+<div class="card">
+  <div class="card-header">
+    <div class="card-icon">📖</div>
+    <div class="card-title">تصفّح المصحف</div>
+  </div>
+  <div class="card-body">
+    <p>المصحف يعرض صفحة كاملة في كل مرة — ٦٠٤ صفحة بخط مجمع الملك فهد الرسمي v2.0، دون تمرير عمودي.</p>
+    <p><strong>مرِّر يميناً</strong> للانتقال إلى الصفحة التالية، و<strong>مرِّر يساراً</strong> للرجوع.</p>
+    <p>يظهر في الترويسة اسم السورة ورقم الجزء، ويظهر في التذييل شريط التقدّم ورقم الصفحة بالأرقام العربية.</p>
+    <div class="tip">💡 لتغيير المظهر (نهاري / ليلي / ورقي)، اضغط قائمة الثلاثة أسطر ← المظهر.</div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-header">
+    <div class="card-icon">☰</div>
+    <div class="card-title">الفهرس</div>
+  </div>
+  <div class="card-body">
+    <p>اضغط رمز الفهرس في الترويسة لفتح لائحة السور والأجزاء الـ٣٠.</p>
+    <p>اضغط على أي سورة أو جزء فينتقل التطبيق مباشرةً إلى صفحته في المصحف.</p>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-header">
+    <div class="card-icon">🔍</div>
+    <div class="card-title">البحث</div>
+  </div>
+  <div class="card-body">
+    <p>اضغط رمز البحث في الترويسة ثم اكتب الكلمة التي تبحث عنها.</p>
+    <p>البحث يدرك كلَّ صِيَغ الكلمة — اكتب «ايمان» وسيجد «إيمان» و«الإيمان» و«ٱلْإِيمَٰن» معاً.</p>
+    <p>اضغط أيَّ نتيجة فتنتقل إلى صفحتها وتجد كل تكرارات الكلمة مضاءةً بالذهب مباشرةً في المصحف.</p>
+    <div class="tip">💡 عدد النتائج يظهر داخل المربع الذهبي بجانب حقل البحث.</div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-header">
+    <div class="card-icon">📝</div>
+    <div class="card-title">معاني الآيات</div>
+  </div>
+  <div class="card-body">
+    <p><strong>اضغط مطولاً</strong> على أي آية لفتح لوحة المعاني، وفيها تبويبان:</p>
+    <p><strong>معاني الكلمات</strong> — معاني الكلمات الغريبة مأخوذةً من «الميسر في غريب القرآن».</p>
+    <p><strong>التفسير الميسر</strong> — تفسير موجز للآية مأخوذ من «التفسير الميسر» لمجمع الملك فهد.</p>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════════════════
+     2. الإشارات والورد
+     ══════════════════════════════════════════════════════════ -->
+<div class="section-heading">الإشارات والورد اليومي</div>
+
+<div class="card">
+  <div class="card-header">
+    <div class="card-icon">🔖</div>
+    <div class="card-title">الإشارات</div>
+  </div>
+  <div class="card-body">
+    <p>اضغط رمز الإشارة في الترويسة لإضافة الصفحة الحالية إلى قائمة إشاراتك أو لفتح قائمة الإشارات المحفوظة.</p>
+    <p>يمكنك حفظ أكثر من إشارة والانتقال بينها في أي وقت.</p>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-header">
+    <div class="card-icon">🎗️</div>
+    <div class="card-title">الورد اليومي</div>
+  </div>
+  <div class="card-body">
+    <p>اضغط قائمة الثلاثة أسطر ← <strong>الورد اليومي</strong> لإعداد وردك.</p>
+    <p>اختر عدد الصفحات اليومية ثم ابدأ القراءة — الورد يضع إشارةً مرجعية تلقائياً عند كل صفحة تنهيها.</p>
+    <p>عُدْ إلى التطبيق في أي وقت وستجد الإشارة في مكانها تماماً، حتى لو مرّت أيام.</p>
+
+    <div class="tier-row" style="margin-top:10px;">
+      <div class="tier-dot" style="background:#C62828;"></div>
+      <span>أقل من ٣٠٪ — بداية الورد</span>
+    </div>
+    <div class="tier-row">
+      <div class="tier-dot" style="background:#F57F17;"></div>
+      <span>٣٠٪ إلى ٧٠٪ — في منتصف الطريق</span>
+    </div>
+    <div class="tier-row">
+      <div class="tier-dot" style="background:#1B5E20;"></div>
+      <span>أكثر من ٧٠٪ — اقتربت من إتمام الورد</span>
+    </div>
+
+    <div class="tip">💡 اضغط «↩ تابع وردك» في التذييل للعودة فوراً إلى موضع الإشارة إن كنت قد انتقلت.</div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════════════════
+     3. الحفظ
+     ══════════════════════════════════════════════════════════ -->
+<div class="section-heading">تتبّع الحفظ</div>
+
+<div class="card">
+  <div class="card-header">
+    <div class="card-icon">🌿</div>
+    <div class="card-title">لوحة الحفظ وخريطة الحديقة</div>
+  </div>
+  <div class="card-body">
+    <p>اضغط قائمة الثلاثة أسطر ← <strong>الحفظ</strong> لفتح لوحة الحفظ.</p>
+    <p><strong>تبويب الإحصاء:</strong> يعرض مرتبتك الحالية من سبع مراتب، وعدد الآيات والصفحات والسور والأجزاء التي حفظتها.</p>
+    <p><strong>تبويب خريطة الحفظ:</strong> ٦٠٤ مربع يمثّل كل صفحة في المصحف — الفارغ رملي والمحفوظ أخضر. زهرة ذهبية تظهر عند اكتمال كل جزء.</p>
+    <p>لتسجيل ما حفظته، اضغط <strong>«حدِّث حفظك»</strong> واختر السور أو الأجزاء التي أتقنتها.</p>
+    <div class="tip">💡 اضغط «شارك خريطة الحفظ» لمشاركة صورة حديقتك مع الأصدقاء والعائلة.</div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════════════════
+     4. تذكير الصلاة
+     ══════════════════════════════════════════════════════════ -->
+<div class="section-heading">تذكير الصلاة</div>
+
+<div class="card">
+  <div class="card-header">
+    <div class="card-icon">🕌</div>
+    <div class="card-title">أوقات الصلاة والأذان</div>
+  </div>
+  <div class="card-body">
+    <p>اضغط قائمة الثلاثة أسطر ← <strong>أوقات الصلاة</strong> لإعداد التذكير.</p>
+
+    <p><strong>التفعيل:</strong> شغّل مفتاح «تفعيل تذكير الصلاة» ثم اضغط «موقعي» لتحديد موقعك — يُحسب وقت الصلاة تلقائياً وفق حساب أم القرى.</p>
+
+    <p><strong>لكل صلاة ثلاثة خيارات:</strong></p>
+    <div class="tier-row">
+      <div class="tier-dot" style="background:#1B5E20;"></div>
+      <span><strong>أذان كامل</strong> — يُشغِّل ملف الأذان الذي رفعته</span>
+    </div>
+    <div class="tier-row">
+      <div class="tier-dot" style="background:#F57F17;"></div>
+      <span><strong>تنبيه قصير</strong> — صوت نبيه خفيف</span>
+    </div>
+    <div class="tier-row">
+      <div class="tier-dot" style="background:#78909C;"></div>
+      <span><strong>إيقاف</strong> — لا صوت لهذه الصلاة</span>
+    </div>
+
+    <p style="margin-top:8px;">عند حلول وقت الصلاة يظهر إشعار فيه زر <strong>«إيقاف»</strong> لإيقاف الأذان فوراً إن أردت.</p>
+
+    <div class="tip">💡 رفع ملف الأذان: في إعدادات الصلاة اضغط «رفع صوت الأذان» واختر ملفاً من جهازك (MP3 أو M4A). يُخزَّن في التطبيق ويعمل بلا اتصال بالإنترنت.</div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-header">
+    <div class="card-icon">⌚</div>
+    <div class="card-title">أداة الشاشة الرئيسية (Widget)</div>
+  </div>
+  <div class="card-body">
+    <p>يمكن إضافة أداة وَرَتِّلْ على شاشة هاتفك الرئيسية لتعرض:</p>
+    <p>• اسم السورة والصفحة الحالية ورقم الجزء.</p>
+    <p>• عداد حي يُحصي الوقت المتبقي حتى الصلاة القادمة («الظهر بعد ١:٢٣»).</p>
+    <p>• شريط تقدّم الورد بألوانه الثلاثة.</p>
+    <p>• دعاء اليوم في أسفل الأداة.</p>
+    <p>لإضافتها: اضغط مطولاً على الشاشة الرئيسية ← أدوات ← وَرَتِّلْ.</p>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════════════════
+     5. المشاركة والمظاهر
+     ══════════════════════════════════════════════════════════ -->
+<div class="section-heading">المشاركة والإعدادات</div>
+
+<div class="card">
+  <div class="card-header">
+    <div class="card-icon">↗️</div>
+    <div class="card-title">مشاركة قراءتك</div>
+  </div>
+  <div class="card-body">
+    <p>اضغط رمز المشاركة في الترويسة لمشاركة:</p>
+    <p><strong>بطاقة القراءة اليومية</strong> — صورة تُظهر صفحتك اليوم وتقدّمك.</p>
+    <p><strong>دعوة للتطبيق</strong> — بطاقة مع رمز QR يأخذ المستلِم مباشرةً إلى صفحة التحميل على المتجر.</p>
+    <p>لمشاركة خريطة الحفظ، افتح لوحة الحفظ ← اضغط «شارك خريطة الحفظك».</p>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-header">
+    <div class="card-icon">🎨</div>
+    <div class="card-title">المظاهر</div>
+  </div>
+  <div class="card-body">
+    <p>ثلاثة مظاهر للقراءة يمكن تغييرها من قائمة الثلاثة أسطر ← المظهر:</p>
+    <p><strong>نهاري (ورقي)</strong> — خلفية كريمية دافئة مثل ورق المصحف المطبوع.</p>
+    <p><strong>ليلي</strong> — خلفية داكنة مريحة للعين في الإضاءة المنخفضة.</p>
+    <p><strong>بُنّي (سيبيا)</strong> — مظهر دافئ بنكهة التراث.</p>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-header">
+    <div class="card-icon">📱</div>
+    <div class="card-title">وضع القراءة المكبَّر (أدِر الجهاز)</div>
+  </div>
+  <div class="card-body">
+    <p>أدِر هاتفك أفقياً (Landscape) ليتحوّل التطبيق تلقائياً إلى وضع القراءة المكبَّر:</p>
+    <p>حجم الخط يكبر إلى ٤٨sp والترويسة تتقلّص، مما يمنحك مساحة قراءة أوسع وأوضح.</p>
+    <div class="tip">💡 مفيد جداً عند استخدام التطبيق على طاولة أو حامل.</div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════════════════
+     Footer
+     ══════════════════════════════════════════════════════════ -->
+<div class="divider"></div>
+<div class="footer">
+  وَرَتِّلْ · مجاني بلا إعلانات · يعمل بلا إنترنت<br>
+  <a href="https://warattil.org">warattil.org</a>
+</div>
+
+</body>
+</html>

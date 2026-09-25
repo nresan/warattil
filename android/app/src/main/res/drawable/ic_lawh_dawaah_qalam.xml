@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  WARATTIL V2 — حلقة الحفظ menu glyph.
+
+  The full Kuttāb workstation: tablet (لوح) on the left, reed pen (قلم)
+  diagonal across the upper-right, tip dipping into a rounded inkpot
+  (دواة) in the lower-right.  A symbolic shorthand for the study circle
+  where students copy ayāt onto their ألواح, memorize, then erase and
+  rewrite the next portion.
+
+  All shapes drawn as outline + small fills so Icon(tint = theme.gold)
+  paints the whole composition uniformly.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Tablet (لوح) — tapered trapezoid on the left -->
+    <path
+        android:strokeColor="#FF000000"
+        android:strokeWidth="1.4"
+        android:strokeLineJoin="round"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M3,4 L9,4 L9.8,19.5 L2.2,19.5 Z" />
+
+    <!-- Script lines inside the tablet -->
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M4,8 H7.5 V8.7 H4 Z  M4,11 H8 V11.7 H4 Z  M4,14 H7 V14.7 H4 Z" />
+
+    <!-- Reed qalam (قلم) — diagonal pen, tip dipping into the inkpot -->
+    <path
+        android:strokeColor="#FF000000"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M22,7.5 L18.5,17.5" />
+
+    <!-- Inkpot (دواة) — narrow neck + rounded belly -->
+    <path
+        android:strokeColor="#FF000000"
+        android:strokeWidth="1.2"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M16.5,18 C16.5,21 21.5,21 21.5,18 L20.5,17 L17.5,17 Z" />
+</vector>

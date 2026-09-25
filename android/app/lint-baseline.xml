@@ -1,0 +1,1126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="6" by="lint 8.11.1" type="baseline" client="gradle" dependencies="false" name="AGP (8.11.1)" variant="fatal" version="8.11.1">
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="    private val notifPermLauncher = registerForActivityResult("
+        errorLine2="                                    ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="69"
+            column="37"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="    private val notifPermLauncher = registerForActivityResult("
+        errorLine2="                                    ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="69"
+            column="37"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="    private val notifPermLauncher = registerForActivityResult("
+        errorLine2="                                    ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="69"
+            column="37"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="    private val notifPermLauncher = registerForActivityResult("
+        errorLine2="                                    ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="69"
+            column="37"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="    private val notifPermLauncher = registerForActivityResult("
+        errorLine2="                                    ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="69"
+            column="37"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="    private val notifPermLauncher = registerForActivityResult("
+        errorLine2="                                    ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="69"
+            column="37"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="    private val notifPermLauncher = registerForActivityResult("
+        errorLine2="                                    ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="69"
+            column="37"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="    private val notifPermLauncher = registerForActivityResult("
+        errorLine2="                                    ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="69"
+            column="37"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="    private val notifPermLauncher = registerForActivityResult("
+        errorLine2="                                    ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="69"
+            column="37"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="    private val notifPermLauncher = registerForActivityResult("
+        errorLine2="                                    ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="69"
+            column="37"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="    private val notifPermLauncher = registerForActivityResult("
+        errorLine2="                                    ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="69"
+            column="37"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="    private val notifPermLauncher = registerForActivityResult("
+        errorLine2="                                    ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="69"
+            column="37"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="    private val notifPermLauncher = registerForActivityResult("
+        errorLine2="                                    ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="69"
+            column="37"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="    private val notifPermLauncher = registerForActivityResult("
+        errorLine2="                                    ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="69"
+            column="37"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="    private val notifPermLauncher = registerForActivityResult("
+        errorLine2="                                    ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="69"
+            column="37"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="    private val notifPermLauncher = registerForActivityResult("
+        errorLine2="                                    ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="69"
+            column="37"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="    private val notifPermLauncher = registerForActivityResult("
+        errorLine2="                                    ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="69"
+            column="37"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="    private val notifPermLauncher = registerForActivityResult("
+        errorLine2="                                    ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="69"
+            column="37"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="    private val notifPermLauncher = registerForActivityResult("
+        errorLine2="                                    ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="69"
+            column="37"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="    private val notifPermLauncher = registerForActivityResult("
+        errorLine2="                                    ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="69"
+            column="37"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="    private val notifPermLauncher = registerForActivityResult("
+        errorLine2="                                    ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="69"
+            column="37"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="    private val notifPermLauncher = registerForActivityResult("
+        errorLine2="                                    ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="69"
+            column="37"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="    private val notifPermLauncher = registerForActivityResult("
+        errorLine2="                                    ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="69"
+            column="37"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="    private val notifPermLauncher = registerForActivityResult("
+        errorLine2="                                    ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="69"
+            column="37"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="    private val notifPermLauncher = registerForActivityResult("
+        errorLine2="                                    ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="69"
+            column="37"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="    private val notifPermLauncher = registerForActivityResult("
+        errorLine2="                                    ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="69"
+            column="37"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="    private val notifPermLauncher = registerForActivityResult("
+        errorLine2="                                    ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="69"
+            column="37"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="    private val notifPermLauncher = registerForActivityResult("
+        errorLine2="                                    ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="69"
+            column="37"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="    private val notifPermLauncher = registerForActivityResult("
+        errorLine2="                                    ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="69"
+            column="37"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="    private val notifPermLauncher = registerForActivityResult("
+        errorLine2="                                    ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="69"
+            column="37"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="    private val notifPermLauncher = registerForActivityResult("
+        errorLine2="                                    ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="69"
+            column="37"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="    private val notifPermLauncher = registerForActivityResult("
+        errorLine2="                                    ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="69"
+            column="37"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="    private val notifPermLauncher = registerForActivityResult("
+        errorLine2="                                    ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="69"
+            column="37"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="    private val notifPermLauncher = registerForActivityResult("
+        errorLine2="                                    ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="69"
+            column="37"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="    private val notifPermLauncher = registerForActivityResult("
+        errorLine2="                                    ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="69"
+            column="37"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="    private val notifPermLauncher = registerForActivityResult("
+        errorLine2="                                    ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="69"
+            column="37"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="    private val notifPermLauncher = registerForActivityResult("
+        errorLine2="                                    ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="69"
+            column="37"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="    private val notifPermLauncher = registerForActivityResult("
+        errorLine2="                                    ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="69"
+            column="37"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="    private val notifPermLauncher = registerForActivityResult("
+        errorLine2="                                    ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="69"
+            column="37"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="    private val notifPermLauncher = registerForActivityResult("
+        errorLine2="                                    ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="69"
+            column="37"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="    private val notifPermLauncher = registerForActivityResult("
+        errorLine2="                                    ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="69"
+            column="37"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="    private val notifPermLauncher = registerForActivityResult("
+        errorLine2="                                    ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="69"
+            column="37"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="    private val notifPermLauncher = registerForActivityResult("
+        errorLine2="                                    ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="69"
+            column="37"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="    private val notifPermLauncher = registerForActivityResult("
+        errorLine2="                                    ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="69"
+            column="37"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="    private val notifPermLauncher = registerForActivityResult("
+        errorLine2="                                    ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="69"
+            column="37"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="    private val notifPermLauncher = registerForActivityResult("
+        errorLine2="                                    ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="69"
+            column="37"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="    private val notifPermLauncher = registerForActivityResult("
+        errorLine2="                                    ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="69"
+            column="37"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="    private val notifPermLauncher = registerForActivityResult("
+        errorLine2="                                    ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="69"
+            column="37"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="    private val notifPermLauncher = registerForActivityResult("
+        errorLine2="                                    ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="69"
+            column="37"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="    private val notifPermLauncher = registerForActivityResult("
+        errorLine2="                                    ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="69"
+            column="37"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="    private val notifPermLauncher = registerForActivityResult("
+        errorLine2="                                    ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="69"
+            column="37"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="        registerForActivityResult(ActivityResultContracts.StartIntentSenderForResult()) {"
+        errorLine2="        ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="109"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="        registerForActivityResult(ActivityResultContracts.StartIntentSenderForResult()) {"
+        errorLine2="        ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="109"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="        registerForActivityResult(ActivityResultContracts.StartIntentSenderForResult()) {"
+        errorLine2="        ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="109"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="        registerForActivityResult(ActivityResultContracts.StartIntentSenderForResult()) {"
+        errorLine2="        ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="109"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="        registerForActivityResult(ActivityResultContracts.StartIntentSenderForResult()) {"
+        errorLine2="        ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="109"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="        registerForActivityResult(ActivityResultContracts.StartIntentSenderForResult()) {"
+        errorLine2="        ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="109"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="        registerForActivityResult(ActivityResultContracts.StartIntentSenderForResult()) {"
+        errorLine2="        ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="109"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="        registerForActivityResult(ActivityResultContracts.StartIntentSenderForResult()) {"
+        errorLine2="        ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="109"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="        registerForActivityResult(ActivityResultContracts.StartIntentSenderForResult()) {"
+        errorLine2="        ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="109"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="        registerForActivityResult(ActivityResultContracts.StartIntentSenderForResult()) {"
+        errorLine2="        ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="109"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="        registerForActivityResult(ActivityResultContracts.StartIntentSenderForResult()) {"
+        errorLine2="        ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="109"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="        registerForActivityResult(ActivityResultContracts.StartIntentSenderForResult()) {"
+        errorLine2="        ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="109"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="        registerForActivityResult(ActivityResultContracts.StartIntentSenderForResult()) {"
+        errorLine2="        ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="109"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="        registerForActivityResult(ActivityResultContracts.StartIntentSenderForResult()) {"
+        errorLine2="        ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="109"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="        registerForActivityResult(ActivityResultContracts.StartIntentSenderForResult()) {"
+        errorLine2="        ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="109"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="        registerForActivityResult(ActivityResultContracts.StartIntentSenderForResult()) {"
+        errorLine2="        ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="109"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="        registerForActivityResult(ActivityResultContracts.StartIntentSenderForResult()) {"
+        errorLine2="        ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="109"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="        registerForActivityResult(ActivityResultContracts.StartIntentSenderForResult()) {"
+        errorLine2="        ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="109"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="        registerForActivityResult(ActivityResultContracts.StartIntentSenderForResult()) {"
+        errorLine2="        ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="109"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="        registerForActivityResult(ActivityResultContracts.StartIntentSenderForResult()) {"
+        errorLine2="        ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="109"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="        registerForActivityResult(ActivityResultContracts.StartIntentSenderForResult()) {"
+        errorLine2="        ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="109"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="        registerForActivityResult(ActivityResultContracts.StartIntentSenderForResult()) {"
+        errorLine2="        ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="109"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="        registerForActivityResult(ActivityResultContracts.StartIntentSenderForResult()) {"
+        errorLine2="        ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="109"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="        registerForActivityResult(ActivityResultContracts.StartIntentSenderForResult()) {"
+        errorLine2="        ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="109"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="        registerForActivityResult(ActivityResultContracts.StartIntentSenderForResult()) {"
+        errorLine2="        ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="109"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="        registerForActivityResult(ActivityResultContracts.StartIntentSenderForResult()) {"
+        errorLine2="        ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="109"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="        registerForActivityResult(ActivityResultContracts.StartIntentSenderForResult()) {"
+        errorLine2="        ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="109"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="        registerForActivityResult(ActivityResultContracts.StartIntentSenderForResult()) {"
+        errorLine2="        ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="109"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="        registerForActivityResult(ActivityResultContracts.StartIntentSenderForResult()) {"
+        errorLine2="        ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="109"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="        registerForActivityResult(ActivityResultContracts.StartIntentSenderForResult()) {"
+        errorLine2="        ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="109"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="        registerForActivityResult(ActivityResultContracts.StartIntentSenderForResult()) {"
+        errorLine2="        ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="109"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="        registerForActivityResult(ActivityResultContracts.StartIntentSenderForResult()) {"
+        errorLine2="        ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="109"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="        registerForActivityResult(ActivityResultContracts.StartIntentSenderForResult()) {"
+        errorLine2="        ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="109"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="        registerForActivityResult(ActivityResultContracts.StartIntentSenderForResult()) {"
+        errorLine2="        ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="109"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="        registerForActivityResult(ActivityResultContracts.StartIntentSenderForResult()) {"
+        errorLine2="        ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="109"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="        registerForActivityResult(ActivityResultContracts.StartIntentSenderForResult()) {"
+        errorLine2="        ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="109"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="        registerForActivityResult(ActivityResultContracts.StartIntentSenderForResult()) {"
+        errorLine2="        ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="109"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="        registerForActivityResult(ActivityResultContracts.StartIntentSenderForResult()) {"
+        errorLine2="        ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="109"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="        registerForActivityResult(ActivityResultContracts.StartIntentSenderForResult()) {"
+        errorLine2="        ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="109"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="        registerForActivityResult(ActivityResultContracts.StartIntentSenderForResult()) {"
+        errorLine2="        ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="109"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="        registerForActivityResult(ActivityResultContracts.StartIntentSenderForResult()) {"
+        errorLine2="        ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="109"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="        registerForActivityResult(ActivityResultContracts.StartIntentSenderForResult()) {"
+        errorLine2="        ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="109"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="        registerForActivityResult(ActivityResultContracts.StartIntentSenderForResult()) {"
+        errorLine2="        ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="109"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="        registerForActivityResult(ActivityResultContracts.StartIntentSenderForResult()) {"
+        errorLine2="        ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="109"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="        registerForActivityResult(ActivityResultContracts.StartIntentSenderForResult()) {"
+        errorLine2="        ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="109"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="        registerForActivityResult(ActivityResultContracts.StartIntentSenderForResult()) {"
+        errorLine2="        ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="109"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="        registerForActivityResult(ActivityResultContracts.StartIntentSenderForResult()) {"
+        errorLine2="        ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="109"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="        registerForActivityResult(ActivityResultContracts.StartIntentSenderForResult()) {"
+        errorLine2="        ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="109"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="        registerForActivityResult(ActivityResultContracts.StartIntentSenderForResult()) {"
+        errorLine2="        ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="109"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="        registerForActivityResult(ActivityResultContracts.StartIntentSenderForResult()) {"
+        errorLine2="        ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="109"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="InvalidFragmentVersionForActivityResult"
+        message="Upgrade Fragment version to at least 1.3.0."
+        errorLine1="        registerForActivityResult(ActivityResultContracts.StartIntentSenderForResult()) {"
+        errorLine2="        ^">
+        <location
+            file="src/main/java/com/warattil/app/MainActivity.kt"
+            line="109"
+            column="9"/>
+    </issue>
+
+</issues>

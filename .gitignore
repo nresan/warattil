@@ -1,0 +1,33 @@
+# macOS / editors
+.DS_Store
+*.swp
+.idea/
+*.iml
+
+# Android
+android/.gradle/
+android/.kotlin/
+android/build/
+android/app/build/
+android/app/release/
+android/local.properties
+android/captures/
+*.apk
+*.aab
+
+# Release signing — never commit
+keystore.properties
+*.jks
+*.keystore
+*.mobileprovision
+*.p12
+
+# iOS / Xcode
+ios/**/xcuserdata/
+ios/**/*.xcuserstate
+ios/**/build/
+ios/**/DerivedData/
+ios/**/.swiftpm/
+ios/**/.build/
+ios/**/*.db-journal
+PUBLISH_TO_GITHUB.command

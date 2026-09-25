@@ -1,0 +1,212 @@
+[
+  {
+    "index": 1,
+    "startSura": 1,
+    "startAya": 1,
+    "startKey": 10001,
+    "endKey": 20141
+  },
+  {
+    "index": 2,
+    "startSura": 2,
+    "startAya": 142,
+    "startKey": 20142,
+    "endKey": 20252
+  },
+  {
+    "index": 3,
+    "startSura": 2,
+    "startAya": 253,
+    "startKey": 20253,
+    "endKey": 30092
+  },
+  {
+    "index": 4,
+    "startSura": 3,
+    "startAya": 93,
+    "startKey": 30093,
+    "endKey": 40023
+  },
+  {
+    "index": 5,
+    "startSura": 4,
+    "startAya": 24,
+    "startKey": 40024,
+    "endKey": 40147
+  },
+  {
+    "index": 6,
+    "startSura": 4,
+    "startAya": 148,
+    "startKey": 40148,
+    "endKey": 50081
+  },
+  {
+    "index": 7,
+    "startSura": 5,
+    "startAya": 82,
+    "startKey": 50082,
+    "endKey": 60110
+  },
+  {
+    "index": 8,
+    "startSura": 6,
+    "startAya": 111,
+    "startKey": 60111,
+    "endKey": 70087
+  },
+  {
+    "index": 9,
+    "startSura": 7,
+    "startAya": 88,
+    "startKey": 70088,
+    "endKey": 80040
+  },
+  {
+    "index": 10,
+    "startSura": 8,
+    "startAya": 41,
+    "startKey": 80041,
+    "endKey": 90092
+  },
+  {
+    "index": 11,
+    "startSura": 9,
+    "startAya": 93,
+    "startKey": 90093,
+    "endKey": 110005
+  },
+  {
+    "index": 12,
+    "startSura": 11,
+    "startAya": 6,
+    "startKey": 110006,
+    "endKey": 120052
+  },
+  {
+    "index": 13,
+    "startSura": 12,
+    "startAya": 53,
+    "startKey": 120053,
+    "endKey": 140052
+  },
+  {
+    "index": 14,
+    "startSura": 15,
+    "startAya": 1,
+    "startKey": 150001,
+    "endKey": 160128
+  },
+  {
+    "index": 15,
+    "startSura": 17,
+    "startAya": 1,
+    "startKey": 170001,
+    "endKey": 180074
+  },
+  {
+    "index": 16,
+    "startSura": 18,
+    "startAya": 75,
+    "startKey": 180075,
+    "endKey": 200135
+  },
+  {
+    "index": 17,
+    "startSura": 21,
+    "startAya": 1,
+    "startKey": 210001,
+    "endKey": 220078
+  },
+  {
+    "index": 18,
+    "startSura": 23,
+    "startAya": 1,
+    "startKey": 230001,
+    "endKey": 250020
+  },
+  {
+    "index": 19,
+    "startSura": 25,
+    "startAya": 21,
+    "startKey": 250021,
+    "endKey": 270055
+  },
+  {
+    "index": 20,
+    "startSura": 27,
+    "startAya": 56,
+    "startKey": 270056,
+    "endKey": 290045
+  },
+  {
+    "index": 21,
+    "startSura": 29,
+    "startAya": 46,
+    "startKey": 290046,
+    "endKey": 330030
+  },
+  {
+    "index": 22,
+    "startSura": 33,
+    "startAya": 31,
+    "startKey": 330031,
+    "endKey": 360027
+  },
+  {
+    "index": 23,
+    "startSura": 36,
+    "startAya": 28,
+    "startKey": 360028,
+    "endKey": 390031
+  },
+  {
+    "index": 24,
+    "startSura": 39,
+    "startAya": 32,
+    "startKey": 390032,
+    "endKey": 410046
+  },
+  {
+    "index": 25,
+    "startSura": 41,
+    "startAya": 47,
+    "startKey": 410047,
+    "endKey": 450037
+  },
+  {
+    "index": 26,
+    "startSura": 46,
+    "startAya": 1,
+    "startKey": 460001,
+    "endKey": 510030
+  },
+  {
+    "index": 27,
+    "startSura": 51,
+    "startAya": 31,
+    "startKey": 510031,
+    "endKey": 570029
+  },
+  {
+    "index": 28,
+    "startSura": 58,
+    "startAya": 1,
+    "startKey": 580001,
+    "endKey": 660012
+  },
+  {
+    "index": 29,
+    "startSura": 67,
+    "startAya": 1,
+    "startKey": 670001,
+    "endKey": 770050
+  },
+  {
+    "index": 30,
+    "startSura": 78,
+    "startAya": 1,
+    "startKey": 780001,
+    "endKey": 1140006
+  }
+]

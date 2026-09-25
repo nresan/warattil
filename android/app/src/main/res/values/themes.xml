@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Plain app theme — used AFTER the splash hands off. -->
+    <style name="Theme.WarattilV2" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <!--
+      Starting theme — applied to the launcher Activity. The SplashScreen
+      API (API 31+, backported via core-splashscreen on older devices)
+      paints this while the app process boots, BEFORE Compose can render
+      its first frame.
+
+      DELIBERATELY INVISIBLE ICON (2026-04-22 round 6):
+      The Android SplashScreen API has NO official "no icon" mode. If
+      `windowSplashScreenAnimatedIcon` is OMITTED, the platform falls
+      back to the launcher icon with its default adaptive-icon treatment
+      (white disc bubble + shrunken foreground). Nasser saw the fallback
+      and reported it as yet another "old intro" — he wants the
+      cold-start canvas to be visually empty, not branded with a
+      mini-logo.
+
+      Fix: point the splash at a deliberately invisible drawable
+      (splash_icon_invisible.xml — a solid-cream 288dp vector) AND
+      pin the icon-background bubble to the same cream color. Result:
+      the splash renders a cream square masked to a cream circle on a
+      cream screen = invisible to the user.
+
+      History:
+        Round 5 (just omit the icon)      → fell back to launcher icon
+        Round 6 (this): explicit invisible → no visible splash content
+
+      Rationale for two-stage design: the system splash is MANDATORY on
+      Android 12+ (shown by the OS during process startup, before any
+      app code runs). It can only render a background + icon — it can
+      NOT render the Muzzammil ayah block. So we accept it as an
+      unavoidable cold-start bridge and make it look like nothing, and
+      put the full branded trademark (logo + ayah + attribution) into
+      Stage 2 (Compose WarattilSplashScreen), which takes over the
+      moment Compose's first frame paints.
+
+      Duration is controlled in MainActivity (SPLASH_MIN_MS = 4000 ms
+      on Stage 2; Stage 1 dismisses the instant Compose's first frame
+      paints).
+    -->
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#F5F5DC</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_icon_invisible</item>
+        <item name="windowSplashScreenIconBackgroundColor">#F5F5DC</item>
+        <item name="postSplashScreenTheme">@style/Theme.WarattilV2</item>
+    </style>
+
+</resources>

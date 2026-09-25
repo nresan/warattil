@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  WARATTIL V2 — لوح الحفظ menu glyph.
+
+  Archetypal Kuttāb-school wooden tablet (tall, slightly tapered trapezoid)
+  with a hanging hole near the top and four short horizontal bars suggesting
+  Arabic script written by a student.  Drawn as stroke + small fills so the
+  Icon() composable can apply a single tint (theme.gold) cleanly to the
+  outline, the hole ring, and the script marks together.
+
+  Dimensions follow Material Icons conventions (24 x 24 viewport).
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Tablet silhouette — tapered trapezoid, wider at bottom -->
+    <path
+        android:strokeColor="#FF000000"
+        android:strokeWidth="1.5"
+        android:strokeLineJoin="round"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M8,3 L16,3 L17.2,21 L6.8,21 Z" />
+
+    <!-- Hanging hole — small ring near the top -->
+    <path
+        android:strokeColor="#FF000000"
+        android:strokeWidth="1"
+        android:fillColor="#00000000"
+        android:pathData="M12,5 m-0.7,0 a0.7,0.7 0 1,0 1.4,0 a0.7,0.7 0 1,0 -1.4,0" />
+
+    <!-- Script lines — four short bars of varying length, evoking writing -->
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M9,9 H15 V9.8 H9 Z  M9,12 H14.5 V12.8 H9 Z  M9,15 H15.2 V15.8 H9 Z  M9,18 H13 V18.8 H9 Z" />
+</vector>

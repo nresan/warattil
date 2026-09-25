@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Deliberately invisible splash icon (2026-04-22 round 6).
+
+  On Android 12+ the system SplashScreen API ALWAYS renders an icon
+  during cold-start. If `windowSplashScreenAnimatedIcon` is omitted
+  from the theme, the platform falls back to the launcher icon with
+  its default adaptive-icon treatment (white disc bubble behind the
+  icon foreground). Nasser saw that fallback and reported it as
+  "intro showing first, can't you avoid showing this?" — i.e. he
+  wants the cold-start canvas to be visually empty, not branded with
+  a mini-logo.
+
+  The Android SplashScreen API has NO official "no icon" mode — the
+  only way to suppress it is to supply an icon that matches the
+  background. This vector is a solid-cream 288dp square (the adaptive
+  icon size spec for splash icons). Paired with
+  `windowSplashScreenIconBackgroundColor = #F5F5DC` in themes.xml,
+  the rendered splash becomes: cream square masked to a cream circle
+  on a cream screen = invisible.
+
+  Do NOT replace this drawable with something visible (logo,
+  monogram, etc.) unless explicitly asked — the invisibility is the
+  point. The branded intro lives in Stage 2 (WarattilSplashScreen.kt).
+
+  Size is 288dp to match the adaptive-icon splash spec; the exact
+  value doesn't matter visually (the whole thing is cream-on-cream)
+  but using the spec-correct size avoids subtle scaling artifacts
+  on some OEM builds.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="288dp"
+    android:height="288dp"
+    android:viewportWidth="288"
+    android:viewportHeight="288">
+    <path
+        android:fillColor="#F5F5DC"
+        android:pathData="M0,0h288v288h-288z" />
+</vector>

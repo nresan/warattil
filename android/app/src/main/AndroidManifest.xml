@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Notifications (Android 13+) -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <!-- WorkManager + Azan alarms need to survive reboot -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <!-- ── Azan / prayer reminders ────────────────────────────────────────── -->
+    <!-- Vibration is part of every Azan notification (also fires in
+         NOTIFICATION_ONLY mode so a pocketed phone still registers). -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- Exact alarms: SCHEDULE_EXACT_ALARM lets the code call
+         setExactAndAllowWhileIdle() for precise prayer timing on Android 12+
+         (API 31+) when the user grants it via system settings.  AzanScheduler
+         already falls back to am.set() when canScheduleExactAlarms() is false,
+         so Azan still works without the grant (slightly less precise timing).
+         USE_EXACT_ALARM was removed because it is restricted to calendar/alarm
+         clock apps under Play Store policy and WARATTIL does not qualify. -->
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <!-- Foreground service hosts MediaPlayer for the full / short Azan audio
+         playback — the receiver itself only has a ~10-second window. -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
+    <!-- Location is captured once on first enable to compute prayer times for
+         the user's coordinates.  Coarse is acceptable for prayer accuracy
+         (city-level is fine; the difference is sub-minute), but we request
+         fine if the user grants it for slightly better precision. -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!--
+      Android 11+ package-visibility declaration for the About-sheet
+      «للتواصل» mailto: link.  Without this <queries> block, the
+      ACTION_SENDTO intent would fail to resolve on API 30+ even if a
+      mail app is installed, because the launcher package is otherwise
+      invisible to us by default.
+    -->
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.SENDTO" />
+            <data android:scheme="mailto" />
+        </intent>
+    </queries>
+
+    <application
+        android:name=".WarattilApp"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WarattilV2">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.App.Starting"
+            android:enableOnBackInvokedCallback="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- WorkManager workers (auto-discovered; explicit declaration for clarity) -->
+        <service
+            android:name="androidx.work.impl.foreground.SystemForegroundService"
+            android:foregroundServiceType="shortService"
+            tools:node="merge" />
+
+        <!-- Glance home-screen widget -->
+        <receiver
+            android:name=".widget.WarattilWidgetReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/warattil_widget_info" />
+        </receiver>
+
+        <!-- ── Azan / prayer-reminder components ──────────────────────────── -->
+        <!-- AzanReceiver fires when an AlarmManager prayer alarm triggers.
+             Internal-only (not exported); the only sender is our own scheduler.
+             Single action ACTION_AZAN — the widget countdown ticks live via
+             an embedded Android Chronometer (RemoteViews) so no per-minute
+             widget-refresh alarms are needed. -->
+        <receiver
+            android:name=".azan.AzanReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.warattil.app.azan.ACTION_AZAN" />
+            </intent-filter>
+        </receiver>
+
+        <!-- AzanBootReceiver re-arms the five daily alarms after device reboot
+             or after the app is updated (alarms don't survive either). -->
+        <receiver
+            android:name=".azan.AzanBootReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Foreground service that plays the user's uploaded Azan audio.
+             foregroundServiceType="mediaPlayback" is required on Android 14+
+             when the service plays audio. -->
+        <service
+            android:name=".azan.AzanPlaybackService"
+            android:exported="false"
+            android:foregroundServiceType="mediaPlayback" />
+
+        <!--
+          Cache-scoped FileProvider used by ShareUtil.shareHifzGarden to
+          expose a rendered PNG to receiving apps (WhatsApp, Telegram, Gmail
+          …).  Authority is applicationId-qualified so V2 and V3 installs
+          don't collide; the paths resource limits exposure to
+          cacheDir/shared_images/ only.
+        -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+    </application>
+
+</manifest>
