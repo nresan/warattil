@@ -1,84 +1,35 @@
-<div dir="rtl" align="right">
+ٱلنُّهَىٰ | AL-NUHA
+الرؤية الاستراتيجية والتوجه التقني للمشروع
 
-# ورتّل — مصحف رقمي بلا إعلانات، مفتوح المصدر
+مشروع تقني قرآني متكامل بمعايير عالمية
 
-**ورتّل** تطبيق مصحف للقراءة والحفظ والورد اليومي، بنص مجمع الملك فهد لطباعة المصحف الشريف وخطّه الرسمي، بلا إعلانات ولا حسابات ولا تتبّع، ويعمل بالكامل دون اتصال بالإنترنت.
+لا نعمل على إنشاء تطبيق تقليدي، ولا نسعى إلى إعادة إنتاج تجربة موجودة أو الاكتفاء بتغيير اسم مشروع سابق. نحن نعمل على تأسيس منظومة قرآنية رقمية متكاملة، ذات بنية تقنية متقدمة، وهوية مستقلة، ورؤية بعيدة المدى، تُبنى وفق أعلى معايير الجودة والاحترافية.
 
-هذا المستودع يحوي **الشيفرة المصدرية الكاملة** لنسختَي التطبيق:
+تتمثل رؤيتنا في تطوير النُّهَىٰ لتكون من أبرز المنصات القرآنية الرقمية على مستوى العالم، وأن تقدم تجربة استثنائية تجمع بين أصالة القرآن الكريم، ودقة المحتوى العلمي، وقوة الهندسة البرمجية، وذكاء التقنيات الحديثة، وفخامة التصميم، وسلاسة الاستخدام.
 
-- **أندرويد** — `android/` (Kotlin + Jetpack Compose) — [على Google Play](https://play.google.com/store/apps/details?id=com.warattil.warattilmushaf)
-- **آيفون** — `ios/` (Swift + SwiftUI) — [على App Store](https://apps.apple.com/app/id6766103481)
+أولًا: التطوير التقني المتقدم
+تأسيس بنية برمجية قوية ومنظمة وقابلة للتوسع، مع تطوير تطبيقات مستقلة ومتكاملة لأنظمة Android وiOS والويب، وفق معايير هندسية احترافية، تضمن الاستقرار والأداء العالي وسهولة الصيانة والتطوير المستمر.
 
-## لماذا مفتوح المصدر؟
+ثانيًا: منظومة قرآنية شاملة
+بناء بيئة متكاملة تضم المصحف الشريف، والتفسير، والتدبر، وعلوم القرآن، والقراءات، والحفظ، والمراجعة، والتسميع، والبحث المتقدم، والمكتبة القرآنية، وسائر الأدوات التي تخدم المستخدم في رحلته مع كتاب الله.
 
-ورتّل **صدقةٌ جارية**. الغاية منه الثواب لا الربح، ولذلك نشرنا الشيفرة كاملةً برخصة MIT حتى:
+ثالثًا: تجربة استخدام استثنائية
+تطوير واجهات عصرية فائقة الإتقان، بهوية بصرية مستقلة، وتفاصيل دقيقة في الألوان والخطوط والحركة والتنقل، مع تقديم تجربة قراءة تحترم شكل المصحف الورقي وتجمع بين الجمال والوضوح والسهولة.
 
-- يتعلّم منها من أراد أن يبني تطبيقًا قرآنيًا،
-- ويُصلح فيها من وجد خللًا،
-- ويُكمل المسيرة من بعدنا إن توقّفنا، فلا يتوقّف التطبيق بتوقّف صاحبه.
+رابعًا: التوسع والانتشار العالمي
+تصميم المنصة لتكون قابلة لخدمة المستخدمين في مختلف دول العالم، مع تعدد اللغات، ودعم الأجهزة المختلفة، وتوفير بنية تقنية تستوعب النمو المستقبلي والتوسع في الخدمات.
 
-«إذا مات ابن آدم انقطع عمله إلا من ثلاث: صدقة جارية، أو علم يُنتفع به، أو ولد صالح يدعو له».
+خامسًا: الجودة والموثوقية
+الالتزام بأعلى درجات الدقة في عرض النص القرآني، والتحقق من مصادر المحتوى، واختبار جميع الوظائف والأنظمة، وحماية بيانات المستخدمين، وعدم إطلاق أي ميزة قبل التأكد من جودتها واستقرارها.
 
-## ما في التطبيق
+سادسًا: الملكية والإدارة المؤسسية
+يُطوّر المشروع باعتباره منتجًا تقنيًا مملوكًا للشركة، وتُدار شيفراته المصدرية وأنظمته وتصميماته وحقوقه وفق إطار قانوني وإداري واضح، مع تنظيم صلاحيات الوصول والتطوير والمحافظة على سرية الأصول التقنية وفق سياسات الشركة.
 
-- مصحف المدينة صفحةً صفحة (٦٠٤ صفحات) بخط KFGQPC الرسمي، بثلاثة أنماط: نهاري، ورقي، ليلي.
-- الورد اليومي مع تذكير، وإحصاء التقدّم في الختمة.
-- حلقة الحفظ: تحديد المحفوظ آيةً آية، خريطة حفظ من ٦٠٤ خلية، شارة مستوى الحافظ، ومشاركة الخريطة صورة.
-- التفسير الميسّر ومعاني الكلمات الغريبة لكل آية بضغطة طويلة.
-- تذكير الصلاة (الأذان) بحسب الموقع، بخيار لكل صلاة.
-- البحث، الإشارات المرجعية، مشاركة الآية نصًا أو صورة، أداة الشاشة الرئيسية (أندرويد).
+سابعًا: التطوير المستمر
+لا يُنظر إلى إطلاق النُّهَىٰ باعتباره نهاية العمل، بل بداية مرحلة مستمرة من التطوير والتحسين والابتكار، للوصول إلى منظومة ناضجة ومتكاملة وقوية في جميع تفاصيلها.
 
-## البناء
+مبدأ المشروع
+لسنا بصدد بناء تطبيق يؤدي وظيفة واحدة؛ نحن بصدد تأسيس منظومة قرآنية رقمية متكاملة، بهوية مستقلة، وهندسة تقنية متقدمة، ومعايير مؤسسية، ورؤية عالمية.
 
-**أندرويد:** افتح `android/` في Android Studio (Hedgehog أو أحدث، JDK 17) ثم `./gradlew assembleDebug`. للتوقيع للنشر انسخ `keystore.properties.example` إلى `keystore.properties` وضع مفتاحك أنت — مفتاح النشر الأصلي ليس جزءًا من المستودع.
-
-**آيفون:** افتح `ios/Warattil/Warattil.xcodeproj` في Xcode 16 أو أحدث، اختر فريق التوقيع الخاص بك، ثم Run. لا اعتماديات خارجية.
-
-## المساهمة
-
-مرحبًا بكل مساهمة: تصحيح، ترجمة، تحسين أداء، أو ميزة جديدة. افتح Issue للنقاش أولًا إن كانت الميزة كبيرة. ثوابت التصميم (الألوان، الخطوط، قانون الزخم) مقفلة في `WarattilConstants` — يُرجى الاطلاع عليها قبل تغيير الواجهة.
-
-قواعد النصّ داخل التطبيق: عربية فصيحة، بلا تسويق ولا ألعاب نقاط، وبأدب يليق بالمصحف.
-
-## الرخصة
-
-الشيفرة برخصة [MIT](LICENSE). نص المصحف والتفسير والخطوط ملك لأصحابها — انظر [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
-
-للتواصل: contact@warattil.org · [warattil.org](https://www.warattil.org)
-
-</div>
-
----
-
-# WARATTIL — an ad-free, open-source Mushaf app
-
-**WARATTIL** (ورتّل) is a Quran reading, daily-wird and memorisation app built on the King Fahd Complex (KFGQPC) Uthmani text and font. No ads, no accounts, no tracking, fully offline.
-
-This repository holds the **complete source** of both apps:
-
-- **Android** — `android/` (Kotlin, Jetpack Compose) — [Google Play](https://play.google.com/store/apps/details?id=com.warattil.warattilmushaf)
-- **iOS** — `ios/` (Swift, SwiftUI) — [App Store](https://apps.apple.com/app/id6766103481)
-
-## Why open source
-
-WARATTIL is intended as a *sadaqah jariyah* — an ongoing charity whose reward outlives its author. Publishing the code under MIT means anyone can learn from it, fix it, or continue it if the original maintainers stop, so the app never dies with one person.
-
-## Features
-
-Madinah Mushaf page-by-page rendering (604 pages) with the official KFGQPC font in three themes; daily wird with reminders and khatmah progress; Hifz circle with ayah-level tracking, a 604-cell memorisation map, level badge and shareable map image; Tafseer al-Muyassar and rare-word glosses on long-press; location-based prayer (Azan) reminders with per-prayer modes; search, bookmarks, ayah share as text or image, home-screen widget (Android).
-
-## Building
-
-**Android:** open `android/` in Android Studio (JDK 17), `./gradlew assembleDebug`. For release signing copy `keystore.properties.example` to `keystore.properties` and point it at *your own* keystore — the Play upload key is not in the repo.
-
-**iOS:** open `ios/Warattil/Warattil.xcodeproj` in Xcode 16+, set your signing team, Run. No external dependencies.
-
-## Contributing
-
-Issues and pull requests are welcome — fixes, translations, performance, features. Open an issue first for anything large. Design constants (colours, type scale, momentum law) are locked in `WarattilConstants`; read them before touching UI. In-app copy is classical Arabic, no marketing tone, no gamification.
-
-## License
-
-Code: [MIT](LICENSE). Quran text, Tafseer, dictionaries and fonts belong to their owners — see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
-
-Contact: contact@warattil.org · [warattil.org](https://www.warattil.org)
+ٱلنُّهَىٰ — AL-NUHA
+رؤية طموحة، وهندسة متقنة، وتقنية تُسخّر لخدمة كتاب الله.
